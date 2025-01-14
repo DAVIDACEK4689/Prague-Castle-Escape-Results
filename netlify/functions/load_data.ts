@@ -4,6 +4,7 @@ import { Handler } from "@netlify/functions";
 
 function initializeFirebase() {
     const firebaseConfig = {
+        // Api key is stored on Netlify
         apiKey: process.env.API_KEY,
         authDomain: "prague-castle-escape.firebaseapp.com",
         projectId: "prague-castle-escape",
